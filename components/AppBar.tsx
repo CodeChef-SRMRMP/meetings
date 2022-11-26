@@ -3,7 +3,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Diversity3Icon from "@mui/icons-material/Diversity3";
 import CurrencyBitcoinIcon from "@mui/icons-material/CurrencyBitcoin";
 import SecurityIcon from "@mui/icons-material/Security";
-import JavascriptIcon from "@mui/icons-material/Javascript";
+import CodeOffIcon from "@mui/icons-material/CodeOff";
 import TerminalIcon from "@mui/icons-material/Terminal";
 import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
 import DesignServicesIcon from "@mui/icons-material/DesignServices";
@@ -28,7 +28,7 @@ const menuItems = [
   { name: "Family Meet", icon: <Diversity3Icon /> },
   { name: "Web3 Meet", icon: <CurrencyBitcoinIcon /> },
   { name: "Cyber Security Meet", icon: <SecurityIcon /> },
-  { name: "Development Meet", icon: <JavascriptIcon /> },
+  { name: "Development Meet", icon: <CodeOffIcon /> },
   { name: "CP Meet", icon: <TerminalIcon /> },
   { name: "PR&M Meet", icon: <ManageAccountsIcon /> },
   { name: "Creatives Meet", icon: <DesignServicesIcon /> },
@@ -40,7 +40,7 @@ const adminMenu = [
 ];
 export default function NavBar() {
   const [drawerOpen, setIsDrawerOpen] = useState(false);
-  const admin = true;
+  const admin = false;
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
